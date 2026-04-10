@@ -5,7 +5,19 @@ import Reviews from '../components/Reviews';
 import HeroImg from '../assets/images/Hero-img.jpeg';
 import Aboutimg from '../assets/images/about2.jpg'
 import Chooseimg from '../assets/images/about1.jpg'
+import Shilajit1 from '../assets/images/himalaya-shilajit.jpeg'
+import Shilajit2 from '../assets/images/energy-boost.jpg'
+import Shilajit3 from '../assets/images/health.jpg'
 import Logo from '../assets/images/logo.jpeg';
+import CtaBgImg from '../assets/images/about3.jpg';
+import MinistryLogo from '../assets/images/logos/Ministere-sante-maroc.png';
+import OnssaLogo from '../assets/images/logos/onssa.png';
+import IntertekLogo from '../assets/images/logos/intertek.png';
+import BureauVeritasLogo from '../assets/images/logos/bureau-vritas.jpg';
+import EurofinsLogo from '../assets/images/logos/eurofins.png';
+import PcsirLogo from '../assets/images/logos/PCSIR.jpg';
+import AgrolabLogo from '../assets/images/logos/Agrolab.png';
+import IasLabsLogo from '../assets/images/logos/ias.jfif';
 import { MdArrowOutward } from "react-icons/md";
 import { FiArrowDownRight } from "react-icons/fi";
 import { PiFlowerLotus } from "react-icons/pi";
@@ -96,7 +108,7 @@ function Home() {
             buttonLabel: t('shilajit.pureResin'),
             title: t('shilajit.pureResintitle'),
             text: t('shilajit.pureResinText'),
-            image: 'src/assets/images/himalaya-shilajit.jpeg'
+            image: Shilajit1
         },
         {
             id: 1,
@@ -110,28 +122,28 @@ function Home() {
             buttonLabel: t('shilajit.energyBoost'),
             title: t('shilajit.energyBoosttitle'),
             text: t('shilajit.energyBoostText'),
-            image: 'src/assets/images/energy-boost.jpg'
+            image: Shilajit2
         },
         {
             id: 3,
             buttonLabel: t('shilajit.antiAging'),
             title: t('shilajit.antiAgingtitle'),
             text: t('shilajit.antiAgingText'),
-            image: 'src/assets/images/health.jpg'
+            image: Shilajit3
         }
     ];
 
     const [activeFAQ, setActiveFAQ] = useState(null);
     const faqs = t('faq.questions');
     const certifications = [
-        { name: "Intertek", logo: "src/assets/images/logos/intertek.png" },
-        { name: "Bureau Veritas", logo: "src/assets/images/logos/bureau-vritas.jpg" },
-        { name: "Eurofins", logo: "src/assets/images/logos/eurofins.png" },
-        { name: "PCSIR", logo: "src/assets/images/logos/PCSIR.jpg" },
-        { name: "ONSSA", logo: "src/assets/images/logos/onssa.png" },
-        { name: "Ministry of Health", logo: "src/assets/images/logos/Ministere-sante-maroc.png" },
-        { name: "Agrolab", logo: "src/assets/images/logos/Agrolab.png" },
-        { name: "IAS Labs", logo: "src/assets/images/logos/ias.jfif" }
+        { name: "Intertek", logo: IntertekLogo },
+        { name: "Bureau Veritas", logo: BureauVeritasLogo },
+        { name: "Eurofins", logo: EurofinsLogo },
+        { name: "PCSIR", logo: PcsirLogo },
+        { name: "ONSSA", logo: OnssaLogo },
+        { name: "Ministry of Health", logo: MinistryLogo },
+        { name: "Agrolab", logo: AgrolabLogo },
+        { name: "IAS Labs", logo: IasLabsLogo }
     ];
     return (
         <div className="Home" >
@@ -315,7 +327,7 @@ function Home() {
                         <div className={`certification-badges ${certificationVisible ? 'animate-in' : ''}`}>
                             <div className={`cert-badge ${certificationVisible ? 'fade-slide-up-delay-1' : ''}`}>
                                 <div className="badge-icon">
-                                    <img src="src/assets/images/logos/Ministere-sante-maroc.png" alt="Ministry" />
+                                    <img src={MinistryLogo} alt="Ministry" />
                                 </div>
                                 <div className="badge-text">
                                     <h4>{t('certification.certificationLabel1')}</h4>
@@ -324,7 +336,7 @@ function Home() {
                             </div>
                             <div className={`cert-badge ${certificationVisible ? 'fade-slide-up-delay-2' : ''}`}>
                                 <div className="badge-icon">
-                                    <img src="src/assets/images/logos/onssa.png" alt="ONSSA" />
+                                    <img src={OnssaLogo} alt="ONSSA" />
                                 </div>
                                 <div className="badge-text">
                                     <h4>{t('certification.certificationLabel2')}</h4>
@@ -383,7 +395,7 @@ function Home() {
                     ))}
                 </div>
             </section>
-            <section className="CTASection" ref={ctaRef}>
+            <section className="CTASection" ref={ctaRef} style={{ backgroundImage: `url(${CtaBgImg})` }}>
                 <h2 className={ctaVisible ? 'fade-slide-up' : ''}>{t('cta.title')}</h2>
                 <p className={ctaVisible ? 'fade-slide-up-delay-1' : ''}>{t('cta.description')}</p>
                 <a href='https://www.greenvillage.ma/produit/biolife-shilajit-himalayan-secret-doctot-laila-30ml' target='_blank' rel='noopener noreferrer' className={` CTA-btn ${ctaVisible ? 'fade-slide-up-delay-2 hover-lift' : ''}`}>
