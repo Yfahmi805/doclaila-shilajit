@@ -1,0 +1,128 @@
+.ReviewsSection {
+    padding: 80px 40px;
+}
+
+.reviews-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.reviews-header h2 {
+    font-size: 42px;
+    font-weight: 600;
+    color: var(--dark-green-color);
+}
+
+.reviews-controls button {
+    background: #fff;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    margin-right: 10px;
+    padding: 10px 12px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.reviews-controls button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+}
+
+.reviews-container {
+    display: flex;
+    gap: 20px;
+}
+
+.review-card {
+    flex: 1;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: var(--third-color);
+    transition: 0.3s;
+}
+
+.review-card.active {
+    background-color: var(--secondary-color);
+}
+
+.stars {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.review-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.review-name {
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .ReviewsSection {
+        padding: 40px 20px;
+        
+    }
+
+    .reviews-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        margin-bottom: 30px;
+    }
+
+    .reviews-header h2 {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .reviews-controls {
+        width: 100%;
+        display: none;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .reviews-controls button {
+        padding: 8px 10px;
+        font-size: 14px;
+        margin-right: 0;
+        border-radius: 8px;
+        flex: 1;
+        min-width: 70px;
+    }
+
+    .reviews-container {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .review-card {
+        flex: 1;
+        padding: 20px;
+        border-radius: 12px;
+        
+        min-height: fit-content;
+    }
+
+    .stars {
+        margin-bottom: 12px;
+        font-size: 16px;
+    }
+
+    .review-text {
+        font-size: 14px;
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+
+    .review-name {
+        font-size: 14px;
+    }
+}

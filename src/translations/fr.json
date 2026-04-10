@@ -1,0 +1,137 @@
+{
+    "header": {
+        "home": "Accueil",
+        "about": "À propos",
+        "contact": "Produit",
+        "blog": "Contact",
+        "shop": "FAQ",
+        "orderNow": "Commander Maintenant",
+        "english": "English",
+        "french": "Français",
+        "arabic": "العربية"
+    },
+    "hero": {
+        "brandName": "Doctor Laila",
+        "productName": "Shilajit",
+        "description": "Découvrez la puissance de la nature avec le Shilajit du Docteur Laila, une résine puissante connue pour ses propriétés rajeunissantes.",
+        "discoverBrand": "Découvrez Notre Marque",
+        "pureShilajit": "Shilajit Pur de l'Himalaya",
+        "shilajitBenefits": "Découvrez la résine de bien-être la plus puissante de la nature. Riche de plus de 85 minéraux pour l'énergie, la vitalité et le rajeunissement.",
+        "orderBtn": "Commander Maintenant"
+    },
+    "aboutUs": {
+        "whyChooseUs": "Pourquoi Nous Choisir",
+        "naturalIngredients": "Ingrédients Naturels",
+        "naturalIngredientsDesc": "Shilajit pur provenant des meilleures régions de l'Himalaya, traité avec soin pour maintenir sa puissance et ses bienfaits.",
+        "scientificallyProven": "Scientifiquement Prouvé",
+        "scientificallyProvenDesc": "Scientifiquement prouvé pour augmenter l'énergie, améliorer la vitalité et soutenir votre parcours de bien-être avec des résultats constants.",
+        "aboutSection": "À propos",
+        "brandTitle": "Shilajit du Doctor Laila",
+        "brandDescription": "Avec plus de deux décennies d'expertise en bien-être naturel, le Docteur Laila réunit les connaissances traditionnelles et la science moderne pour offrir des produits shilajit premium. Nous nous engageons à sourcer la résine de plus haute qualité des montagnes himalayennes vierges, garantissant que chaque produit respecte nos normes rigoureuses. Notre mission est de permettre aux individus d'atteindre une santé optimale grâce aux superaliments les plus puissants de la nature."
+    },
+    "shilajitSection": {
+        "learnAbout": "Découvrez",
+        "whyChooseUs": "Pourquoi Nous Choisir",
+        "naturalIngredients": "Ingrédients Naturels",
+        "naturalIngredientsDesc": "Shilajit pur provenant des meilleures régions de l'Himalaya, traité avec soin pour maintenir sa puissance et ses bienfaits.",
+        "scientificallyProven": "Scientifiquement Prouvé",
+        "scientificallyProvenDesc": "Scientifiquement prouvé pour augmenter l'énergie, améliorer la vitalité et soutenir votre parcours de bien-être avec des résultats constants."
+    },
+    "shilajit": {
+        "learnAbout": "Découvrez",
+        "blackGold": "L'Or Noir de l'Himalaya",
+        "description": "Découvrez la puissance transformatrice de la résine de bien-être la plus puissante de la nature. Le Shilajit a été vénéré pendant des siècles en médecine traditionnelle, et la science moderne confirme maintenant ses bienfaits remarquables.",
+        "pureResin": "Résine Pure",
+        "pureResintitle": "Résine Pure de l'Himalaya",
+        "pureResinText": "Notre shilajit authentique est extrait directement des pics montagneux de l'Himalaya. Chaque lot est soigneusement testé pour sa pureté et sa puissance afin d'assurer que vous ne recevez que la résine de la plus haute qualité.",
+        "richMinerals": "Riche en Minéraux",
+        "richMineralstitle": "Composition Riche en Minéraux",
+        "richMineralsText": "Riche de plus de 85 minéraux essentiels et d'oligo-éléments, notre shilajit soutient l'absorption optimale des nutriments et la fonction cellulaire. Une centrale naturelle pour votre routine quotidienne de bien-être.",
+        "energyBoost": "Coup d'Énergie",
+        "energyBoosttitle": "Énergie Naturelle",
+        "energyBoostText": "Découvrez une énergie durable tout au long de la journée sans baisse. Notre shilajit améliore la fonction mitochondriale, aidant votre corps à produire de l'énergie plus efficacement et naturellement.",
+        "antiAging": "Anti-Âge",
+        "antiAgingtitle": "Jeunesse et Vitalité",
+        "antiAgingText": "Riche en acide fulvique, le shilajit agit comme un puissant antioxydant et adaptogène. Soutenez la santé de votre peau, réduisez le stress oxydatif et maintenez la vitalité jeunesse de l'intérieur."
+    },
+    "quote": "Le Shilajit n'est pas juste un complément—c'est un cadeau de la terre qui a nourri les civilisations pendant des siècles",
+    "doctorSection": {
+        "title": "Ce que le Docteur Laila a dit Sur le Shilajit",
+        "description": "Avec des décennies de recherche et de pratique en bien-être naturel, le Docteur Laila a été témoin du pouvoir transformateur du shilajit authentique. Elle souligne que la qualité et la pureté du shilajit sont essentielles pour bénéficier pleinement de ses avantages. Grâce à des tests rigoureux et à un approvisionnement durable provenant des pics himalayens vierges, le Shilajit du Docteur Laila garantit que chaque produit répond aux plus hautes normes d'excellence. Son engagement envers la sagesse traditionnelle combiné à la validation scientifique moderne fait du Shilajit du Docteur Laila le choix de confiance pour ceux qui recherchent un bien-être et une vitalité authentiques."
+    },
+    "certification": {
+        "title": "Le Premier Shilajit Certifié du Maroc",
+        "subtitle": "Assurance de Qualité Premium",
+        "description": "Nous sommes fiers d'être le premier produit shilajit au Maroc à recevoir la certification officielle du Ministère de la Santé et de l'ONSSA (Autorité Nationale de Sécurité Alimentaire). Ces certifications garantissent que notre shilajit respecte les normes les plus élevées de pureté, de sécurité et de qualité. Chaque lot subit des tests rigoureux et une vérification pour vous garantir de recevoir uniquement le shilajit de l'Himalaya le plus authentique et le plus fin.",
+        "certificationLabel1": "Certification du Ministère de la Santé",
+        "certificationText1": "Reconnaissance officielle du Ministère de la Santé du Maroc, garantissant la sécurité des produits et la conformité réglementaire.",
+        "certificationLabel2": "Approuvé par l'ONSSA",
+        "certificationText2": "Approuvé par l'Autorité Nationale de Sécurité Alimentaire, garantissant la conformité aux normes et protocoles de sécurité alimentaire stricts.",
+        "trustBadge": "Certifié et Vérifié"
+    },
+    "faq": {
+        "title": "Questions Fréquemment Posées",
+        "questions": [
+            {
+                "q": "Qu'est-ce exactement que le Shilajit et d'où vient-il?",
+                "a": "Le Shilajit est une résine naturelle riche en minéraux qui se forme au cours des siècles à partir de la décomposition de la matière végétale dans les chaînes de montagnes élevées, en particulier l'Himalaya. Il est récolté dans les fissures des rochers à haute altitude et a été utilisé pendant des milliers d'années en médecine Ayurvédique traditionnelle pour ses propriétés rajeunissantes et adaptogènes."
+            },
+            {
+                "q": "Qu'est-ce qui rend le Shilajit du Docteur Laila différent des autres produits?",
+                "a": "Notre shilajit provient directement des régions himalayennes vierges et subit des tests rigoureux de purification et de laboratoire pour assurer la puissance et la sécurité maximales. Contrairement à de nombreux produits sur le marché, nous n'utilisons pas de charges, d'additifs ou de traitement artificiel. Chaque lot est soigneusement vérifié pour sa pureté, sa teneur en minéraux et son authenticité."
+            },
+            {
+                "q": "Comment dois-je utiliser le Shilajit pour les meilleurs résultats?",
+                "a": "Nous recommandons de prendre une portion de la taille d'un pois (environ 300–500 mg) une ou deux fois par jour. Dissolvez-le dans de l'eau chaude, du thé ou du lait pour une absorption optimale. Pour les meilleurs résultats, prenez-le régulièrement et de préférence l'estomac vide le matin."
+            },
+            {
+                "q": "Combien de temps faut-il pour remarquer les bienfaits?",
+                "a": "Certains utilisateurs signalent une augmentation de l'énergie et de la concentration en quelques jours, tandis que les avantages plus profonds tels que l'amélioration de la vitalité et la récupération peuvent prendre quelques semaines d'utilisation régulière. En tant que complément naturel, les résultats peuvent varier selon votre corps, votre style de vie et votre santé générale."
+            }
+        ]
+    },
+    "cta": {
+        "title": "Commencez Votre Parcours de Bien-être Aujourd'hui",
+        "description": "Découvrez la puissance du Shilajit pur de l'Himalaya.",
+        "button": "Obtenez Votre Shilajit Maintenant"
+    },
+    "reviews": {
+        "title": "Ce que Disent Nos Clients",
+        "items": [
+            {
+                "name": "Loubna Sidi",
+                "text": "J'utilise le Shilajit du Docteur Laila depuis un mois et je me sens plus énergique et concentrée que jamais."
+            },
+            {
+                "name": "Tirha Soukaina",
+                "text": "Qualité incroyable! Vous pouvez vraiment sentir la différence par rapport aux autres produits."
+            },
+            {
+                "name": "Jaqouta",
+                "text": "Hautement recommandé. Naturel, pur et efficace."
+            }
+        ]
+    },
+    "support": {
+        "title": "Avez-vous une question ou besoin d'aide?",
+        "description": "Notre équipe est là pour vous aider à tout moment.",
+        "button": "Nous Contacter"
+    },
+    "footer": {
+        "brandName": "Doctor Laila",
+        "brandDesc": "Shilajit Premium de l'Himalaya conçu pour l'énergie, la vitalité et le bien-être naturel.",
+        "quickLinks": "Liens Rapides",
+        "support": "Support",
+        "stayUpdated": "Restez à Jour",
+        "stayUpdatedDesc": "Recevez les offres et conseils bien-être directement dans votre boîte de réception.",
+        "faq": "FAQ",
+        "shipping": "Expédition",
+        "returns": "Retours",
+        "privacyPolicy": "Politique de Confidentialité",
+        "home": "Accueil",
+        "about": "À propos",
+        "shop": "Boutique",
+        "contact": "Contact",
+        "copyright": "© 2026 Doctor Laila. Tous les droits réservés."
+    }
+}
