@@ -431,8 +431,14 @@ html[dir="rtl"] .side-language-option {
 
     .logo {
         position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 20%;
+        transform: translateX(-10%);
+        
+    }
+    html[dir="rtl"] .logo {
+        left: auto;
+        right: 20%;
+        transform: translateX(10%);
     }
 
     .logo img {
@@ -465,6 +471,10 @@ html[dir="rtl"] .side-language-option {
     .order-now-btn .order-icon {
         margin-left: 6px;
         font-size: 14px;
+    }
+    html[dir="rtl"] .order-now-btn .order-icon {
+        margin-left: 0;
+        margin-right: 6px;
     }
 
     .side-menu {

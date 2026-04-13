@@ -373,7 +373,14 @@ function Home() {
             </section>
             {/*Reviews component */}
             <Reviews />
-
+            <section className="CTASection" ref={ctaRef} style={{ backgroundImage: `url(${CtaBgImg})` }}>
+                <h2 className={ctaVisible ? 'fade-slide-up' : ''}>{t('cta.title')}</h2>
+                <p className={ctaVisible ? 'fade-slide-up-delay-1' : ''}>{t('cta.description')}</p>
+                <a href='https://www.greenvillage.ma/produit/biolife-shilajit-himalayan-secret-doctot-laila-30ml' target='_blank' rel='noopener noreferrer' className=' CTA-btn'>
+                    {t('cta.button')}
+                    <MdArrowOutward className="btn-icon" />
+                </a>
+            </section>
             <section className="FAQSection" ref={faqRef} id="faq">
                 <h2 className={faqVisible ? 'fade-slide-down' : ''}>{t('faq.title')}</h2>
 
@@ -395,14 +402,7 @@ function Home() {
                     ))}
                 </div>
             </section>
-            <section className="CTASection" ref={ctaRef} style={{ backgroundImage: `url(${CtaBgImg})` }}>
-                <h2 className={ctaVisible ? 'fade-slide-up' : ''}>{t('cta.title')}</h2>
-                <p className={ctaVisible ? 'fade-slide-up-delay-1' : ''}>{t('cta.description')}</p>
-                <a href='https://www.greenvillage.ma/produit/biolife-shilajit-himalayan-secret-doctot-laila-30ml' target='_blank' rel='noopener noreferrer' className={` CTA-btn ${ctaVisible ? 'fade-slide-up-delay-2 hover-lift' : ''}`}>
-                    {t('cta.button')}
-                    <MdArrowOutward className="btn-icon" />
-                </a>
-            </section>
+
             <section className="SupportSection" id="support">
                 <h2>{t('support.title')}</h2>
                 <p>{t('support.description')}</p>

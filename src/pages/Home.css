@@ -1080,14 +1080,13 @@
     background: white;
     border-radius: 12px;
     border: 1px solid #e8e5df;
-    box-shadow: 0 4px 15px rgba(184, 134, 11, 0.08);
+    
     transition: all 0.3s ease;
 }
 
 .cert-badge:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(184, 134, 11, 0.15);
-    border-color: var(--primary-color, #b8860b);
+    border-color: var(--primary-color);
 }
 
 .badge-icon {
@@ -1574,6 +1573,10 @@
     .CTASection .CTA-btn .btn-icon {
         margin-left: 8px;
     }
+    html[dir="rtl"] .CTASection .CTA-btn .btn-icon {
+        margin-left: 0;
+        margin-right: 8px;
+    }
 }
 
 .CTASection h2 {
@@ -1588,9 +1591,39 @@
     font-size: 20px;
 }
 
+
 .CTASection .CTA-btn {
+    background-color: #fff;
+    color: var(--primary-color);
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.CTASection .CTA-btn:hover {
+    background-color: var(--primary-color);
     color: #fff;
+}
+
+.CTASection .CTA-btn .btn-icon {
+    margin-left: 10px;
     font-size: 20px;
+    padding: 5px;
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 50%;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.CTASection .CTA-btn:hover .btn-icon {
+    background-color: #fff;
+    color: var(--primary-color);
 }
 
 .SupportSection {
@@ -1660,6 +1693,12 @@
         border-radius: 10px;
         width: 100%;
         max-width: 250px;
+    }
+    html[dir="rtl"] .SupportSection button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap:10px;
     }
 }
 
